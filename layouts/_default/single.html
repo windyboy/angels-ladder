@@ -28,7 +28,8 @@
         </div>
       {{ end }}
     </article>
-    {{ partial "disqus.html" . }}
+    --{{ .URL }}
+    {{ partial "duoshuo" . }}
   </main>
   
   <nav class="pagination-single">
